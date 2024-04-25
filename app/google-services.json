@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "980413177393",
+    "firebase_url": "https://bigpollo-fea5b.firebaseio.com",
+    "project_id": "bigpollo-fea5b",
+    "storage_bucket": "bigpollo-fea5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980413177393:android:13fdbb3939d846e907bf10",
+        "android_client_info": {
+          "package_name": "com.example.pokeaprendo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980413177393-740c6sg8t8bkht4nrmhp46uqekrlkdoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pokeaprendo",
+            "certificate_hash": "93531adeb2874711508c2bf0042fb446b8b724ba"
+          }
+        },
+        {
+          "client_id": "980413177393-06g1nvmgftno5t04fl01p0702t36bbl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkEaRS46T92uZS6SvV0ngI3bqm9z0m6Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980413177393-06g1nvmgftno5t04fl01p0702t36bbl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

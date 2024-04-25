@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--El "merge" indica el container final de los elementos dentro sera la vista de la que
+esta heredando la clase "ViewInfoDialog", ya que si no usaramos un "merge" se generaria
+anidamiento inesesario de Linera layouts(el de la clase "ViewInfoDialog" y el que se declararia aqui)
+
+lap propiedad "parentTag=" inidica que el merge terminara siendo montado en una vista, esto permite a los
+desarrolladores ver el aspecto final  que tendra
+
+-->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:parentTag="android.widget.LinearLayout"
+    tools:gravity="center"
+    tools:context=".ItemImageText">
+
+    <ImageView
+        android:id="@+id/ivIconDrawable"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        tools:src="@drawable/ic_pokebola"/>
+
+    <TextView
+        android:id="@+id/tvItemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Item description"
+        android:textColor="@color/blackTextView"
+        android:textSize="22sp"/>
+
+</merge>

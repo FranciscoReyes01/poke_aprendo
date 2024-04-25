@@ -1,0 +1,112 @@
+<resources>
+    <!--Default Strings-->
+    <!--Auth Firebase-->
+    <string name="your_web_client_id">980413177393-740c6sg8t8bkht4nrmhp46uqekrlkdoj.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">PokeAprendo</string>
+
+
+
+    <!--ActivityLogin ActivityNewUser-->
+    <string name="log_in">Iniciar sesión</string>
+    <string name="no_account">Todavía no tienes una cuenta?</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="user_hint">Usuario...</string>
+    <string name="password_hint">Password...</string>
+    <string name="created_user">Usuario creado con éxito</string>
+    <string name="no_created_user">Usuario no creado</string>
+    <string name="no_login_user">No ha sido posible iniciar sesión</string>
+    <string name="logged_in">Sesión iniciada</string>
+    <string name="closed_session">Sesión cerrada</string>
+    <string name="no_matched">Las contraseñas no coinciden</string>
+    <string name="incomplete_data">Por favor inserte todo los datos</string>
+    <string name="welcome">Bienvenido</string>
+
+
+
+    <!--Menu-->
+    <string name="captured">Capturados</string>
+    <string name="start_capture">Empezar a capturar</string>
+    <string name="settings">Ajustes</string>
+    <string name="get_out">Salir</string>
+
+
+    <!--VerCapturadosFragment-->
+    <string name="all_pokemons">todos</string>
+    <string name="no_pokemons">No hay pokemones para mostrar</string>
+    <string name="download_resources">Descargando recursos...</string>
+    <string name="looking_pokemons">Buscando tus pokemones...</string>
+
+
+
+    <!--InfoPokemonFragment-->
+    <string name="evolutions">Evoluciones</string>
+    <string name="types">Tipos</string>
+    <string name="habitat">Hábitat</string>
+    <string name="generation">Generación</string>
+    <string name="evolution_method">Metodo de evolución</string>
+    <string name="no_evolutions">No hay evoluciones</string>
+    <string name="form">Forma</string>
+    <string name="chain_evolution">Cadena de evolución</string>
+
+
+    <!--CapturarFragment-->
+    <string name="question_name">¿Cuál es su nombre?</string>
+    <string name="question_habitat">¿Cuál es su hábitat?</string>
+    <string name="question_generation">¿A que generación pertenece?</string>
+    <string name="question_types">¿De qué tipo es el pokemon?</string>
+    <string name="question_evolutions">¿Cuáles pokemones son parte de su cadena de evolución?</string>
+    <string name="next_question">Siguiente</string>
+    <string name="go_back">Regresar</string>
+    <string name="looking_capture_pokemons">Buscando pokemones para capturar...</string>
+
+
+    <!--Dialog StartCapture-->
+    <string name="pokemons_to_capture">Pokemones a capturar</string>
+    <string name="start">Comenzar</string>
+
+
+    <!--Dialog NoCapture-->
+    <string name="no_captured_pokemon">Pokemon NO capturado</string>
+    <string name="wrong_answers">respuestas incorrectas</string>
+
+    <!--Dialog Capture-->
+    <string name="captured_pokemon">Pokemon capturado</string>
+
+    <!--Dialog TotalCaptured-->
+    <string name="end_capture">Fin de captura</string>
+    <string name="captured_pokemons">pokemones capturados</string>
+    <string name="no_captured_pokemons">pokemones NO capturados</string>
+
+    <!--Item card pokemon-->
+    <string name="show">Ver</string>
+
+    <!--FragmentAjustes-->
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="language">Idioma</string>
+    <string name="language_changed">Idioma cambiado a </string>
+
+    <string-array name="languages">
+        <item>Español</item>
+        <item>Inglés</item>
+        <item>Japonés</item>
+    </string-array>
+
+
+    <!--InfoPokemonView-->
+    
+    <string name="no_data">Dato desconocido</string>
+
+
+    <!--Errores-->
+    <string name="no_conection">Datos no encontrados, revisa tu conexión a internet</string>
+    <string name="no_pokemons_available">No hay pokemones disponibles para capturar</string>
+
+
+
+
+
+</resources>

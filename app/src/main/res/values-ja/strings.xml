@@ -1,0 +1,114 @@
+<resources>
+    <!--Default Strings-->
+    <!--Auth Firebase-->
+    <string name="your_web_client_id">980413177393-740c6sg8t8bkht4nrmhp46uqekrlkdoj.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">開ける</string>
+    <string name="navigation_drawer_close">近い</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">ポケラーン</string>
+
+
+
+    <!--ActivityLogin ActivityNewUser-->
+    <string name="log_in">ログイン</string>
+    <string name="no_account">まだアカウントをお持ちではありませんか?</string>
+    <string name="create_account">アカウントを作成する</string>
+    <string name="user_hint">ユーザー...</string>
+    <string name="password_hint">パスワード...</string>
+    <string name="created_user">ユーザーが正常に作成されました</string>
+    <string name="no_created_user">ユーザーが作成されていません</string>
+    <string name="no_login_user">ログインできません</string>
+    <string name="logged_in">セッションが開始されました</string>
+    <string name="closed_session">クローズドセッション</string>
+    <string name="no_matched">パスワードが一致していません</string>
+    <string name="incomplete_data">すべてのデータを入力してください</string>
+    <string name="welcome">いらっしゃいませ</string>
+
+
+
+
+    <!--Menu-->
+    <string name="captured">捕らえられた</string>
+    <string name="start_capture">キャプチャを開始する</string>
+    <string name="settings">設定</string>
+    <string name="get_out">外出</string>
+
+
+    <!--VerCapturadosFragment-->
+    <string name="all_pokemons">全て</string>
+    <string name="no_pokemons">表示できるポケモンはありません</string>
+    <string name="download_resources">リソースをダウンロードしています...</string>
+    <string name="looking_pokemons">あなたのポケモンを探しています...</string>
+
+
+
+    <!--InfoPokemonFragment-->
+    <string name="evolutions">進化</string>
+    <string name="types">みんな</string>
+    <string name="habitat">生息地</string>
+    <string name="generation">世代</string>
+    <string name="evolution_method">進化方法</string>
+    <string name="no_evolutions">進化はありません</string>
+    <string name="form">形</string>
+    <string name="chain_evolution">進化の連鎖</string>
+
+
+
+    <!--CapturarFragment-->
+    <string name="question_name">彼女の名前は？</string>
+    <string name="question_habitat">その生息地は何ですか？</string>
+    <string name="question_generation">彼はどの世代に属しますか?</string>
+    <string name="question_types">ポケモンの種類は何ですか？</string>
+    <string name="question_evolutions">どのポケモンが進化チェーンの一部ですか?</string>
+    <string name="next_question">続く</string>
+    <string name="go_back">戻る</string>
+    <string name="looking_capture_pokemons">捕獲するポケモンを探しています...</string>
+
+
+    <!--Dialog StartCapture-->
+    <string name="pokemons_to_capture">捕まえるポケモン</string>
+    <string name="start">始める</string>
+
+
+    <!--Dialog NoCapture-->
+    <string name="no_captured_pokemon">ポケモンが捕獲されていない</string>
+    <string name="wrong_answers">間違った答え</string>
+
+    <!--Dialog Capture-->
+    <string name="captured_pokemon">捕まえたポケモン</string>
+
+    <!--Dialog TotalCaptured-->
+    <string name="end_capture">キャプチャの終了</string>
+    <string name="captured_pokemons">捕まえたポケモン</string>
+    <string name="no_captured_pokemons">ポケモンが捕獲されていない</string>
+
+    <!--Item card pokemon-->
+    <string name="show">見る</string>
+
+    <!--FragmentAjustes-->
+    <string name="dark_mode">ダークモード</string>
+    <string name="language">言語</string>
+    <string name="language_changed">言語がに変更されました</string>
+
+    <string-array name="languages">
+        <item>スペイン語</item>
+        <item>英語</item>
+        <item>日本語</item>
+    </string-array>
+
+
+    <!--InfoPokemonView-->
+
+    <string name="no_data">未知のデータ</string>
+
+
+    <!--Errores-->
+    <string name="no_conection">データが見つかりません。インターネット接続を確認してください</string>
+    <string name="no_pokemons_available">捕まえられるポケモンがいない</string>
+
+
+
+
+
+</resources>

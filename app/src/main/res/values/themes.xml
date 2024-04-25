@@ -1,0 +1,106 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Themes-->
+    <style name="Base.Theme.PokeAprendo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="buttonStyle">@style/myButtonsStyle</item>
+        <item name="editTextStyle">@style/myEtStyle</item>
+        <item name="imageButtonStyle">@style/myButtonsStyle</item>
+
+        <!--Items para SideBar-->
+        <!--Color del Toolbar o action bar-->
+        <item name="colorPrimary">@color/redPokeAprendo</item>
+        <!--Color de la notification bar-->
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.PrimarySurface</item>
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowStyle</item>
+    </style>
+
+    <style name="Theme.PokeAprendo" parent="Base.Theme.PokeAprendo" />
+    
+    
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/icon_splash</item>
+        <item name="android:windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.PokeAprendo</item>
+    </style>
+
+
+    <!--Styles-->
+    <style name="myButtonsStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:background">@drawable/rounded_buttons</item>
+    </style>
+
+    <!--Styles-->
+    <style name="myButtonsStyleDark" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+
+
+    <style name="myEtStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/design_edittext</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:paddingHorizontal">15dp</item>
+        <item name="android:textColorHint">@color/redPokeAprendo</item>
+    </style>
+
+
+
+    <style name="AppTheme.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <!--Color del vector del boton que despliega el sidebar-->
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+
+    <style name="myAutoCompleteStyle" parent="ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+        <item name="android:textColor">@color/blackTextView</item>
+        <item name="android:inputType">none</item>
+        <item name="android:layout_gravity">fill</item>
+    </style>
+
+
+
+
+    <!--Styles dialog-->
+
+    <style name="windowDialog">
+        <item name="android:paddingVertical">20dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/dialog_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="titleContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="titleDialog" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/blackTextView</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+
+
+
+
+    <!--Styles dropDown-->
+    <style name="dropDown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:textColor">@color/redPokeAprendo</item>
+        <item name="backgroundColor">@color/redPokeAprendo</item>
+        <item name="background">@color/black</item>
+        <item name="boxStrokeColor">@color/color_selector_dropdown</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="endIconTint">@color/arrow_dropdown</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/iCapturados"
+            android:icon="@drawable/ic_pokebola"
+            android:title="@string/captured"/>
+
+        <item
+            android:id="@+id/iCapturar"
+            android:icon="@drawable/ic_pokebola"
+            android:title="@string/start_capture" />
+
+        <item
+            android:id="@+id/iAjustes"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/iSalir"
+            android:icon="@drawable/ic_back"
+            android:title="@string/get_out" />
+    </group>
+
+</menu>

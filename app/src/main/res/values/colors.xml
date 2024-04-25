@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrueba">#2196F3</color>
+    <color name="redPokeAprendo">#F13065</color>
+    <color name="redPokeAprendoClaro">#FF4C7D</color>
+    <color name="redPokeAprendoDisabled">#EA8BA5</color>
+
+    <color name="color_menu_items">#011793</color>
+
+
+    <color name="primary">#2196F3</color>
+    <color name="primaryDark">#8BC34A</color>
+    
+    
+    <color name="blackTextView">#616161</color>
+
+    <color name="bgFragmentAjustes">#F7F7F7</color>
+
+
+    <color name="bgDialog">#ffffff</color>
+
+
+    <!--Dropdown-->
+    <color name="focused">@color/redPokeAprendo</color>
+    <color name="hovered">#FF5722</color>
+    <color name="not_enabled">#AFAFAF</color>
+    <color name="default_drop">@color/redPokeAprendo</color>
+
+
+</resources>

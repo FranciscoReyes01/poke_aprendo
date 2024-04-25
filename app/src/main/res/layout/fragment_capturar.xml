@@ -1,0 +1,114 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CapturarFragment"
+    android:paddingHorizontal="45dp">
+
+    <ImageView
+        android:id="@+id/ivPokemon"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginVertical="30dp"
+        app:layout_constraintBottom_toTopOf="@id/vLinea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/poke_example" />
+
+    <View
+        android:id="@+id/vLinea"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:visibility="invisible"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintTop_toBottomOf="@+id/ivPokemon"
+        app:layout_constraintBottom_toTopOf="@+id/tvPregunta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="-23dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Pregunta"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/vLinea"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/rdRespuestas"/>
+
+    <RadioGroup
+        android:id="@+id/rdRespuestas"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tvPregunta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btValidateAnswers"
+        android:padding="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btValidateAnswers"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="@string/next_question"
+        android:visibility="invisible"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/rdRespuestas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+    <ProgressBar
+        android:id="@+id/pbCargaResquestPokemons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:indeterminateTint="@color/redPokeAprendo" />
+
+
+
+    <TextView
+        android:id="@+id/tvNoPokemonsAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:text="@string/no_pokemons_available"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tvCargando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pbCargaResquestPokemons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        android:textSize="15sp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/redPokeAprendo"
+        android:visibility="visible"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
